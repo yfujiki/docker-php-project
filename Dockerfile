@@ -35,3 +35,4 @@ USER $user
 # Set working directory & get project
 WORKDIR /var/www
 RUN composer install
+RUN php artisan key:generate
